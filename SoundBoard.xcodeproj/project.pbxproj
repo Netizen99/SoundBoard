@@ -13,6 +13,7 @@
 		2F582100227B7CE6002B4747 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F5820FE227B7CE6002B4747 /* SoundBoard.xcdatamodeld */; };
 		2F582102227B7CE6002B4747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F582101227B7CE6002B4747 /* Assets.xcassets */; };
 		2F582105227B7CE6002B4747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F582103227B7CE6002B4747 /* LaunchScreen.storyboard */; };
+		2F58210D227B8377002B4747 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F58210C227B8377002B4747 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2F582101227B7CE6002B4747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F582104227B7CE6002B4747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F582106227B7CE6002B4747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F58210C227B8377002B4747 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2F582103227B7CE6002B4747 /* LaunchScreen.storyboard */,
 				2F582106227B7CE6002B4747 /* Info.plist */,
 				2F5820FE227B7CE6002B4747 /* SoundBoard.xcdatamodeld */,
+				2F58210C227B8377002B4747 /* SoundViewController.swift */,
 			);
 			path = SoundBoard;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F58210D227B8377002B4747 /* SoundViewController.swift in Sources */,
 				2F582100227B7CE6002B4747 /* SoundBoard.xcdatamodeld in Sources */,
 				2F5820FA227B7CE6002B4747 /* ViewController.swift in Sources */,
 				2F5820F8227B7CE6002B4747 /* AppDelegate.swift in Sources */,
